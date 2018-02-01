@@ -1,0 +1,29 @@
+{
+    "name": "chims",
+    "version": "0.0.4",
+    "description": "chims is a five-tier structure node server, includes config, helper, interface, model and service, also called 5s",
+    "main": "./chims-server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/webrteam/chims.git"
+    },
+    "author": "Li",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/webrteam/chims/issues"
+    },
+    "homepage": "https://github.com/webrteam/chims#readme",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.15.5",
+        "ifun": "^0.2.9",
+        "ioredis": "^3.1.4",
+        "mongodb": "^2.2.31",
+        "node-uuid": "^1.4.8",
+        "restler": "^3.4.0",
+        "socks5-https-client": "^1.2.1"
+    }
+}
